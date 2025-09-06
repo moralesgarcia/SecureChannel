@@ -2,6 +2,7 @@ import argparse
 import selectors
 import socket
 import sys
+import platform
 from functions import handshake_server, SecureChannel, send_frame, recv_frame
 
 def set_tcp_keepalive(sock: socket.socket):
@@ -10,8 +11,30 @@ def set_tcp_keepalive(sock: socket.socket):
     except OSError:
         pass
 
+def create_server_socket(host: str, port: int):
+    is_windows = platform.system() == 'Windows'
+    
+    if is_windows:
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        try:
+            sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+            sock.bind((host, port))
+            sock.listen()
+            return sock
+        except Exception:
+            sock.close()
+            raise
+    else:
+        return socket.create_server((host, port), reuse_port=True)
+
 def serve(host: str, port: int, psk: str | None, message_callback=None, error_callback=None):
-    ls = socket.create_server((host, port), reuse_port=True)
+    try:
+        ls = create_server_socket(host, port)
+    except Exception as e:
+        if error_callback:
+            error_callback(f"Failed to create server socket: {e}")
+        raise
+        
     set_tcp_keepalive(ls)
     print(f"listening on {host}:{port}", file=sys.stderr)
     
